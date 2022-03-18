@@ -10,7 +10,4 @@ def main(a):
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
     c=(a%10)*10+a//10
-    if a<=c:
-        return True
-    else:
-        return False
+    return c<=a
